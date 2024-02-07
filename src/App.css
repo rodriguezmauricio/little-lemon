@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --color-black: #000;
+  --color-green: #495e57;
+  --color-yellow: #f4ce14;
+  --color-orange: #ee9972;
+  --color-beige: #fbdabb;
+  --color-light-grey: #edefee;
+  --color-dark-grey: #333;
+
+  --max-width: 1100px;
+
+  --rounded: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Markazi Text", serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  font-family: "Karla", sans-serif;
+  font-size: 16pt;
+  /* line-height: 24pt; */
+}
+
+span {
+  color: var(--color-yellow);
+}
+
+body {
   display: flex;
   flex-direction: column;
+}
+
+/* HEADER STYLE BEGIN */
+
+header {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 10px 20px;
+  max-width: var(--max-width);
+  margin: auto;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+nav ul a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+/* HEADER STYLE END */
+
+/* NAV STYLE BEGIN */
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.page-section {
+  padding: 30px 0;
+}
+/* NAV STYLE END */
+
+/* FOOTER STYLE BEGIN */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: auto;
+  max-width: var(--max-width);
+  padding: 10px 20px;
+}
+
+footer img {
+  max-width: 200px;
+}
+
+.footer_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav ul a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+/* FOOTER STYLE END */
+
+@media (max-width: 768px) {
+  footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: auto;
   }
 }

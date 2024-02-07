@@ -1,0 +1,59 @@
+.hero {
+  background-color: var(--color-green);
+  margin-bottom: 120px;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  /* height: 400px; */
+  position: relative;
+}
+
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 20px;
+  color: var(--color-light-grey);
+}
+
+.hero_left .text h1 {
+  margin-bottom: -15px;
+}
+
+.hero_left h1 {
+  font-size: 40pt;
+}
+
+.hero_left h3 {
+  font-size: 28pt;
+}
+
+.hero_right {
+  background-image: url(../images/restauranfood.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 35%;
+  height: 450px;
+  top: 20px;
+  right: 20px;
+  border-radius: var(--rounded);
+}
+
+/* SPECIALS SECTION BEGIN */
+
+.specials-section {
+}
+
+.special-cards-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  /* height: 100px; */
+}
+
+/* SPECIALS SECTION END */

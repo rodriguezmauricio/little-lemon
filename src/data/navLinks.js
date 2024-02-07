@@ -1,27 +1,27 @@
 const menuLinks = [
   {
     text: "Home",
-    link: "/",
+    link: "#",
   },
   {
     text: "About",
-    link: "/",
+    link: "#",
   },
   {
     text: "Menu",
-    link: "/",
+    link: "#",
   },
   {
     text: "Reservations",
-    link: "/",
+    link: "#",
   },
   {
     text: "Order Online",
-    link: "/",
+    link: "#",
   },
   {
     text: "Login",
-    link: "/",
+    link: "#",
   },
 ];
 
