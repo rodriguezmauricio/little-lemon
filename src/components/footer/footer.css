@@ -1,0 +1,30 @@
+footer {
+  gap: var(--gap-regular);
+  padding: 10px 20px;
+  background-color: var(--color-light-grey);
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap-regular);
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 30px 20px;
+}
+
+footer img {
+  max-width: 200px;
+}
+
+.footer_col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -124,36 +124,11 @@ nav ul a {
 
 /* FOOTER STYLE BEGIN */
 
-footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--gap-regular);
-  margin: auto;
-  max-width: var(--max-width);
-  padding: 10px 20px;
-}
-
-footer img {
-  max-width: 200px;
-}
-
-.footer_col {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-footer nav ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-nav ul a {
+/* nav ul a {
   list-style: none;
   text-decoration: none;
   color: var(--color-black);
-}
+} */
 
 /* FOOTER STYLE END */
 

@@ -1,7 +1,7 @@
 import "./App.css";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Footer from "./components/footer/Footer";
 import BookATable from "./components/pages/BookATable";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";

@@ -38,7 +38,7 @@
   background-image: url(../images/restauranfood.jpg);
   background-size: cover;
   position: absolute;
-  width: 35%;
+  width: 45%;
   height: 450px;
   top: 20px;
   right: 20px;
@@ -108,8 +108,8 @@
   position: relative;
   flex-direction: row;
   display: flex;
-  justify-content: flex-end;
-  flex: 1;
+  justify-content: center;
+  flex: 2;
 }
 
 .about-img-one {
