@@ -38,10 +38,10 @@
   align-items: center;
   gap: 15px;
   margin-top: 15px;
-  /* background-color: aqua; */
   width: fit-content;
   padding: 10px 0;
   font-weight: bold;
+  border-bottom: 1px solid transparent;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
