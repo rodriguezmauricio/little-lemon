@@ -10,10 +10,10 @@ const Main = () => {
         <div className="container">
           <div className="hero_left">
             <div className="text">
-              <h1>
+              <h1 className="subtitle">
                 <span>Little Lemon</span>
               </h1>
-              <h3>Chicago</h3>
+              <h3 className="hightlight">Chicago</h3>
             </div>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptates qui
@@ -28,7 +28,7 @@ const Main = () => {
       <section className="page-section specials-section">
         <div className="container">
           <header>
-            <h2 className="display-title">This weeks specials!</h2>
+            <h2 className="subtitle">This weeks specials!</h2>
             <Button>Online menu</Button>
           </header>
 

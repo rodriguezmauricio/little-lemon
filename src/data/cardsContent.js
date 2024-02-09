@@ -1,4 +1,4 @@
-import img1 from "../images/greek salad.jpg";
+import img1 from "../images/greekSalad.jpg";
 import img2 from "../images/bruchetta.svg";
 import img3 from "../images/lemon dessert.jpg";
 

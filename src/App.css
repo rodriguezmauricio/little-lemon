@@ -27,15 +27,17 @@ h4,
 h5,
 h6 {
   font-family: "Markazi Text", serif;
+  font-weight: 300;
 }
 
-p {
+p,
+span {
   font-family: "Karla", sans-serif;
   font-size: 16pt;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
-span {
+.hightlight {
   color: var(--color-yellow);
 }
 
@@ -85,17 +87,18 @@ nav ul a {
 
 .display-title {
   font-family: "Markazi Text", serif;
-  font-size: 64pt;
+  font-size: 54pt;
 }
 
 .subtitle {
   font-family: "Markazi Text", serif;
   font-size: 40pt;
+  font-weight: 300;
 }
 
 .lead-text {
   font-family: "Karla", sans-serif;
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 .section-title {
