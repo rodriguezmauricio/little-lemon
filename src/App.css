@@ -32,7 +32,7 @@ h6 {
 p {
   font-family: "Karla", sans-serif;
   font-size: 16pt;
-  /* line-height: 24pt; */
+  line-height: 1.5;
 }
 
 span {
@@ -82,6 +82,39 @@ nav ul a {
   padding: 30px 0;
 }
 /* NAV STYLE END */
+
+.display-title {
+  font-family: "Markazi Text", serif;
+  font-size: 64pt;
+}
+
+.subtitle {
+  font-family: "Markazi Text", serif;
+  font-size: 40pt;
+}
+
+.lead-text {
+  font-family: "Karla", sans-serif;
+  font-size: 18pt;
+}
+
+.section-title {
+  font-family: "Karla", sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.week-special {
+  font-family: "Karla", sans-serif;
+  font-size: 16pt;
+  font-weight: bolder;
+}
+
+.card-title {
+  font-family: "Karla", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+}
 
 /* FOOTER STYLE BEGIN */
 

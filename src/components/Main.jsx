@@ -28,7 +28,7 @@ const Main = () => {
       <section className="page-section specials-section">
         <div className="container">
           <header>
-            <h2>This weeks specials!</h2>
+            <h2 className="display-title">This weeks specials!</h2>
             <Button>Online menu</Button>
           </header>
 

@@ -1,7 +1,7 @@
 const menuLinks = [
   {
     text: "Home",
-    link: "#",
+    link: "/",
   },
   {
     text: "About",
@@ -13,7 +13,7 @@ const menuLinks = [
   },
   {
     text: "Reservations",
-    link: "#",
+    link: "/bookATable",
   },
   {
     text: "Order Online",

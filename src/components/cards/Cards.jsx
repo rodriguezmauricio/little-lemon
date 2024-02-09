@@ -9,8 +9,8 @@ const Cards = ({ img, alt, title, price, description, link }) => {
       </div>
       <div className="card-content">
         <div className="title-row">
-          <h3>{title}</h3>
-          {`$${price}`}
+          <h3 className="card-title">{title}</h3>
+          <span className="card-title">{`$${price}`}</span>
         </div>
         <p>{description}</p>
         <div className="">
