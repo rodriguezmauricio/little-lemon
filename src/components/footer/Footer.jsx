@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
 
         <nav className="footer_col">
-          <h3>Doormat Navigation</h3>
+          <h3 className="section-title footer-title">Doormat Navigation</h3>
           <ul>
             {menuLinks.map((item) => {
               return (
@@ -24,16 +24,16 @@ const Footer = () => {
         </nav>
 
         <div className="footer_col">
-          <h3>Contact</h3>
+          <h3 className="section-title footer-title">Contact</h3>
           <div className="">
-            <p>Little Lemon Street, 180, CA.</p>
-            <p>555-123-454</p>
-            <p>contact@littlelemon.com</p>
+            <li>Little Lemon Street, 180, CA.</li>
+            <li>555-123-454</li>
+            <li>contact@littlelemon.com</li>
           </div>
         </div>
 
         <div className="footer_col">
-          <h3>Social Media Links</h3>
+          <h3 className="section-title footer-title">Social Media Links</h3>
         </div>
       </div>
     </footer>

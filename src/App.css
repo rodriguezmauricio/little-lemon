@@ -51,16 +51,6 @@ body {
 
 /* HEADER STYLE BEGIN */
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  max-width: var(--max-width);
-  margin: auto;
-  font-weight: bold;
-}
-
 nav ul {
   display: flex;
   flex-direction: row;

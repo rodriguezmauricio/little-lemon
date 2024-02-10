@@ -1,9 +1,9 @@
-import Button from "./button/Button";
 import "./main.css";
-import cardsContent from "../data/cardsContent";
-import Cards from "./cards/Cards";
-import testimonialsContent from "../data/testimonialsContent";
-import TestimonialCards from "./testimonialCards/TestimonialCards";
+import Button from "../../button/Button";
+import cardsContent from "../../../data/cardsContent";
+import Cards from "../../cards/Cards";
+import testimonialsContent from "../../../data/testimonialsContent";
+import TestimonialCards from "../../testimonialCards/TestimonialCards";
 
 const Main = () => {
   return (
@@ -30,7 +30,7 @@ const Main = () => {
       {/* SPECIALS SECTION BEGIN */}
       <section className="page-section specials-section">
         <div className="container">
-          <header>
+          <header className="specials-header">
             <h2 className="subtitle">This weeks specials!</h2>
             <Button>Online menu</Button>
           </header>

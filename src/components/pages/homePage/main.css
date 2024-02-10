@@ -35,7 +35,7 @@
 }
 
 .hero_right {
-  background-image: url(../images/restauranfood.jpg);
+  background-image: url(../../../images/restauranfood.jpg);
   background-size: cover;
   position: absolute;
   width: 45%;
@@ -47,6 +47,11 @@
 /* HERO SECTION END */
 
 /* SPECIALS SECTION BEGIN */
+
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+}
 
 .special-cards-row {
   display: flex;
@@ -113,7 +118,7 @@
 }
 
 .about-img-one {
-  background-image: url(../images/Mario\ and\ Adrian\ A.jpg);
+  background-image: url(../../../images/Mario\ and\ Adrian\ A.jpg);
   background-size: cover;
   background-position: center;
   width: 300px;
@@ -123,7 +128,7 @@
 }
 
 .about-img-two {
-  background-image: url(../images/Mario\ and\ Adrian\ b.jpg);
+  background-image: url(../../../images/Mario\ and\ Adrian\ b.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;

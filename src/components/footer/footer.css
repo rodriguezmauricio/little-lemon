@@ -23,8 +23,21 @@ footer img {
   gap: 10px;
 }
 
-footer nav ul {
+.footer-title {
+  color: var(--color-green);
+}
+
+footer ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  transition: all 0.2s;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer nav ul li:hover {
+  color: var(--color-yellow);
 }

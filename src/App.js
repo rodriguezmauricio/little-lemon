@@ -1,8 +1,9 @@
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
+
+import Main from "./components/pages/homePage/Main";
 import Footer from "./components/footer/Footer";
-import BookATable from "./components/pages/BookATable";
+import Header from "./components/header/Header";
+import BookingPage from "./components/pages/bookingPage/BookingPage";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -13,7 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/bookATable" element={<BookATable />} />
+          <Route path="/bookATable" element={<BookingPage />} />
           {/* Add more routes as needed */}
         </Routes>
         <Footer />
