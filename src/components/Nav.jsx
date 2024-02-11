@@ -6,8 +6,8 @@ const Nav = () => {
       <ul>
         {menuLinks.map((item) => {
           return (
-            <a href={item.link}>
-              <li key={item.text}>{item.text}</li>
+            <a href={item.link} key={item.text}>
+              <li>{item.text}</li>
             </a>
           );
         })}
