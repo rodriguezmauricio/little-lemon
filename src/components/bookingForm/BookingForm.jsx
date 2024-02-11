@@ -2,17 +2,13 @@ import React, { useState } from "react";
 import "./bookingForm.css";
 import Button from "../button/Button";
 
-const BookingForm = () => {
-  const availableTimes = ["Select time", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"];
-
+const BookingForm = ({ availableTimes, setAvailableTimes }) => {
   const [formContent, setFormContent] = useState({
     date: "",
     time: "",
     numberOfGuests: "0",
     occasion: "Select Occasion",
   });
-
-  // console.log(watch("example")); // watch input value by passing the name of it
 
   const handleFormContent = (event) => {
     setFormContent({ ...formContent, [event.target.name]: event.target.value });

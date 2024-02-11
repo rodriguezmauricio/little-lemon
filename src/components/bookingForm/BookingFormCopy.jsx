@@ -30,7 +30,7 @@ const schema = yup.object({
     .test("is-not-default", "Select an occasion", (value) => value !== "Select occasion"),
 });
 
-const BookingForm = () => {
+const BookingFormCopy = () => {
   const availableTimes = ["Select time", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"];
 
   // const [formContent, setFormContent] = useState({
@@ -104,4 +104,4 @@ const BookingForm = () => {
   );
 };
 
-export default BookingForm;
+export default BookingFormCopy;
