@@ -1,11 +1,15 @@
 import React from "react";
 import BookingForm from "../../bookingForm/BookingForm";
 
-const BookingPage = ({ formContent, handleFormContent, availableTimes, setAvailableTimes }) => {
+const BookingPage = ({ availableTimes, setAvailableTimes, submitForm }) => {
   return (
     <main className="page-section">
       <div className="container">
-        <BookingForm availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} />
+        <BookingForm
+          availableTimes={availableTimes}
+          setAvailableTimes={setAvailableTimes}
+          submitForm={submitForm}
+        />
       </div>
     </main>
   );
