@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useEffect, useReducer } from "react";
 import fakeAPI from "./data/api";
 import ConfirmedBookingPage from "./components/pages/confirmedBookingPage/ConfirmedBookingPage";
-import { useNavigate } from "react-router-dom";
 
 const reducer = (state, action) => {
   switch (action.type) {
