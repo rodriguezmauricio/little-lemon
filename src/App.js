@@ -12,7 +12,6 @@ const reducer = (state, action) => {
   switch (action.type) {
     case "SET_AVAILABLE_TIMES":
       return {
-        ...state,
         availableTimes: action.payload,
       };
     default:
@@ -26,7 +25,7 @@ function App() {
   const { fetchAPI, submitAPI } = fakeAPI;
 
   const [state, dispatch] = useReducer(reducer, {
-    availableTimes: ["Select time", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"],
+    availableTimes: [],
   });
 
   const submitForm = (formData) => {
@@ -37,10 +36,12 @@ function App() {
   };
 
   useEffect(() => {
+    console.log("useEffect called");
     const today = new Date();
 
     const initializeTimes = async () => {
       const availableTimes = await fetchAPI(today);
+      console.log("availableTimes:", availableTimes); // Debugging log
       dispatch({ type: "SET_AVAILABLE_TIMES", payload: availableTimes });
     };
 
