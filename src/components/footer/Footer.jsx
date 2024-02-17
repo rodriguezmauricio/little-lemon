@@ -4,7 +4,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer data-testid="footer">
       <div className="container">
         <div className="footer_col">
           <img src={logo} alt="Little Lemon Restaurant Logo" />

@@ -5,7 +5,7 @@ import { BsBasket } from "react-icons/bs";
 
 const Header = ({ itemsCount }) => {
   return (
-    <header className="main-header">
+    <header data-testid="header" className="main-header">
       <div className="container">
         <div className="logo">
           <img src={logo} alt="Little Lemon Restaurant Logo" />
