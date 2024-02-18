@@ -122,11 +122,17 @@ nav ul a {
 
 /* FOOTER STYLE END */
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: var(--gap-regular);
     margin: auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-regular);
   }
 }

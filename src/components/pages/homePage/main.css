@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.hero_left {
+.hero-left {
   display: flex;
   flex-direction: column;
   width: 35%;
@@ -22,19 +22,19 @@
   color: var(--color-light-grey);
 }
 
-.hero_left .text h1 {
+.hero-left .text h1 {
   margin-bottom: -15px;
 }
 
-.hero_left h1 {
+.hero-left h1 {
   font-size: 40pt;
 }
 
-.hero_left h3 {
+.hero-left h3 {
   font-size: 28pt;
 }
 
-.hero_right {
+.hero-right {
   background-image: url(../../../images/restauranfood.jpg);
   background-size: cover;
   position: absolute;
@@ -97,7 +97,7 @@
 
 /* ABOUT SECTION BEGIN */
 .about-section {
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .about-section .container {
@@ -141,3 +141,78 @@
 }
 
 /* ABOUT SECTION END */
+
+@media (max-width: 860px) {
+  .hero {
+    margin-bottom: 0px;
+  }
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    gap: 20px;
+    color: var(--color-light-grey);
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-section {
+    min-height: 80vh;
+  }
+
+  .about-section .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-left {
+    position: relative;
+    flex: 1;
+    margin-bottom: 30px;
+  }
+
+  .about-right {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    flex: 2;
+    margin-bottom: 50px;
+  }
+
+  .about-img-one {
+    background-image: url(../../../images/Mario\ and\ Adrian\ A.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    border-radius: var(--rounded);
+    z-index: 1;
+  }
+
+  .about-img-two {
+    background-image: url(../../../images/Mario\ and\ Adrian\ b.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 70px;
+    right: 70px;
+    border-radius: var(--rounded);
+    z-index: 2;
+  }
+}

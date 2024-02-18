@@ -11,7 +11,7 @@ const Main = () => {
       {/* HERO SECTION BEGIN */}
       <section className="page-section hero">
         <div className="container">
-          <div className="hero_left">
+          <div className="hero-left">
             <div className="text">
               <h1 className="subtitle">Little Lemon</h1>
               <h3 className="hightlight">Chicago</h3>
@@ -20,9 +20,11 @@ const Main = () => {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptates qui
               explicabo dolores earum quae ullam libero eligendi tatibus iusto incidunt autem?
             </p>
-            <Button>Reserve a table</Button>
+            <a href="/">
+              <Button>Reserve a table</Button>
+            </a>
           </div>
-          <div className="hero_right"></div>
+          <div className="hero-right"></div>
         </div>
       </section>
       {/* HERO SECTION END */}
